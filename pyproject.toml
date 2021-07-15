@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "darbiadev-sanmar"
-version = "0.2.0"
+version = "0.3.0"
 description = "darbiadev-sanmar"
 authors = ["Bradley Reynolds <bradley.reynolds@darbia.dev>"]
 license = "MIT"

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "darbiadev-sanmar"
-version = "0.3.0"
+version = "0.4.0"
 description = "darbiadev-sanmar"
 authors = ["Bradley Reynolds <bradley.reynolds@darbia.dev>"]
 license = "MIT"
@@ -10,9 +10,8 @@ documentation = "https://darbia.gitlab.io/darbiadev-sanmar"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-suds-community = "^0.8.5"
+requests = "^2.26.0"
 xmltodict = "^0.12.0"
-python-benedict = "^0.24.0"
 
 sphinx = { version = "^4.1.1", optional = true }
 sphinx-autodoc-annotation ={ version =  "^1.0-1", optional = true }

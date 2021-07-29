@@ -16,6 +16,7 @@
 
 import os
 import sys
+import toml
 
 sys.path.insert(0, os.path.abspath('../..'))
 
@@ -26,7 +27,7 @@ copyright = '2021, Bradley Reynolds'
 author = 'Bradley Reynolds'
 
 # The full version, including alpha/beta/rc tags
-release = '0.4.0'
+release = toml.load('../../pyproject.toml')['tool']['poetry']['version']
 
 
 # -- General configuration ---------------------------------------------------
@@ -42,6 +43,11 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx_rtd_theme'
 ]
+
+apidoc_module_dir = '../../darbiadev_sanmar'
+
+autoapi_type = 'python'
+autoapi_dirs = [apidoc_module_dir]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

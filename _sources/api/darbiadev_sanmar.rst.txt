@@ -1,0 +1,18 @@
+darbiadev\_sanmar package
+=========================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   darbiadev_sanmar.lib
+
+Module contents
+---------------
+
+.. automodule:: darbiadev_sanmar
+   :members:
+   :undoc-members:
+   :show-inheritance:

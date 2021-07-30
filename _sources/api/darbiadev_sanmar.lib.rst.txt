@@ -1,0 +1,21 @@
+darbiadev\_sanmar.lib package
+=============================
+
+Submodules
+----------
+
+darbiadev\_sanmar.lib.lib module
+--------------------------------
+
+.. automodule:: darbiadev_sanmar.lib.lib
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: darbiadev_sanmar.lib
+   :members:
+   :undoc-members:
+   :show-inheritance:

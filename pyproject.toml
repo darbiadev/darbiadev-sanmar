@@ -11,7 +11,7 @@ documentation = "https://darbiadev.github.io/darbiadev-sanmar/"
 [tool.poetry.dependencies]
 python = "^3.9"
 requests = "^2.26.0"
-xmltodict = "^0.12.0"
+xmltodict = ">=0.12,<0.14"
 
 sphinx = { version = "^4.1.1", optional = true }
 sphinx-autodoc-annotation ={ version =  "^1.0-1", optional = true }

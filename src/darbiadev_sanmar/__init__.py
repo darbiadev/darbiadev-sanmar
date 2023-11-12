@@ -1,3 +1,5 @@
-#!/usr/bin/env python
+"""A wrapper for SanMar's API."""
 
-from .lib.lib import SanMarServices
+from .sanmar_services import SanMarServices
+
+__all__ = ["SanMarServices"]

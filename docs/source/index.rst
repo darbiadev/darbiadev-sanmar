@@ -1,20 +1,27 @@
-.. darbiadev-sanmar documentation master file, created by
-   sphinx-quickstart on Wed Jul 14 19:17:23 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+darbiadev-sanmar
+===============
 
-Welcome to darbiadev-sanmar's documentation!
-============================================
+A wrapper for SanMar's API
+
+Module Index
+------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
 
+   autoapi/index
 
+.. toctree::
+   :caption: Other:
+   :hidden:
 
-Indices and tables
-==================
+   changelog
+   history
+
+Extras
+------
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
+* :doc:`changelog`
+* :doc:`history`

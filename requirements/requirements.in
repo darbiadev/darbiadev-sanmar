@@ -1,0 +1,6 @@
+# Requirements
+# --index-url=http://pypi.example.com/simple
+# --no-cache-dir
+
+requests
+xmltodict
